@@ -108,7 +108,6 @@ keywords = [
 
 ]
 
-# 退出程序，记得之前没敲这段报了一个错误 Error: socket hang up 啥啥啥的忘记了，有兴趣可以try one try
 searchInputElement = driver.find_element(by=By.ID, value="cn.amazon.mShop.android:id/chrome_search_hint_view")
 for keyword in keywords:
     productName = set()
